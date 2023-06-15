@@ -1,0 +1,357 @@
+html {
+    font-family: sans-serif;
+    background-color: #f8f6f7;
+}
+.site-largura {
+	min-width: 1000px;
+	margin: 0 auto;
+}
+
+.menu-topo {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1000px;
+	margin: 0 auto;
+}
+
+.menu-topo-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 6px;
+    gap: 650px;
+    max-width: 1000px;
+}
+
+.menu-topo-esquerda,
+.menu-topo-direita {
+	flex: 1;
+}
+
+.menu-topo-esquerda {
+	word-spacing: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end; 
+}
+
+.menu-topo-direita {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+	text-align: right;
+    color: black;
+}
+
+#primeiro-numero {
+    color: #f35926;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+#segundo-numero {
+    color: #fcb929;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+#terceiro-numero {
+    color: #00b049;
+    font-size: 2.5em;
+    font-weight: bolder;
+    align-items: end;
+}
+
+#viagens {
+    color: black;
+    font-size: 1em;
+    font-weight: bolder;
+    display: flex;
+    padding-bottom: 4px;
+}
+
+.cabecalho-menu-direito {
+    color: black;
+    word-spacing: 1.5em;
+    font-size: 0.9em;
+}
+
+.img-formulario {
+    background-image: url(../img/barcos.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 330px;
+    min-width: 1000px;
+    
+}
+
+.centro-imagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-formulario { 
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 131px;
+    max-width: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: grid;
+    grid-template-rows: repeat(2, 60px);
+    align-items: center;
+    color: white;
+    margin-top: 45px;
+    border-radius: 15px;
+}
+
+.box-formulario-superior {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: repeat(5, 192px);
+    align-items: center;
+    color: black;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.campo {
+    height: 35px;
+    width: 185px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#botao-form {
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #ea3d35;
+    border: #ea3d35;
+    border-radius: 5px;
+    padding-top: 5px;
+    height: 35px;
+    width: 175px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+label {
+    display: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f6f7;
+}
+
+.bloco-completo-cidades {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f6f7;
+    align-items: center;
+}
+
+.bloco-completo-cidades-superior {
+    padding-top: 1.8em;
+    color:black;
+    font-weight: bolder;
+    background-color: #f8f6f7;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: left;
+    width: 1000px;
+    margin-left: 1px;
+}
+
+.bloco-completo-cidades-inferior {
+    background-color: #f8f6f7;
+    padding: 0.2em;
+    height: 5em;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 135px;
+}
+
+.cidades-sup {
+    padding: 5em;
+    padding-top: 1em;
+    background: #f8f6f7;
+    height: 5em;
+    display: grid;
+    grid-template-columns: repeat(4, 228px);
+    gap: 30px;
+}
+
+.cidades-inf {
+    padding: 5em;
+    padding-top: 2em;
+    background: #f8f6f7;
+    height: 5em;
+    display: grid;
+    grid-template-columns: repeat(4, 228px);
+    gap: 30px;
+}
+
+.caixa-cidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center center;
+    gap: 22px;
+    color: white;
+    font-family: sans-serif;
+    height: 170px;
+    width: 228px;
+    padding-top: 1.2em;
+}
+
+.botao-cidades {
+    background-color: #f8f6f7;
+    border-radius: 20px;
+    border: 0;
+    width: 160px;
+    height: 35px;
+    box-shadow: 0.02em 0.02em 0.02em rgb(0, 0, 0);
+    padding-left: 8px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 32px;
+}
+
+.nome-cidade {
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+.valor-voo {
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    text-align: center;
+}
+
+#bloco-bonito {
+    background-image: url(../img/bonito.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#bloco-rio {
+    background-image: url(../img/rio.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#bloco-sao-paulo {
+    background-image: url(../img/sao-paulo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#bloco-foz-do-iguacu {
+    background-image: url(../img/foz.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#bloco-maceio {
+    background-image: url(../img/maceio.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#bloco-salvador {
+    background-image: url(../img/salvador.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#bloco-fortaleza {
+    background-image: url(../img/fortaleza.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#bloco-belo-horizonte {
+    background-image: url(../img/belo-horizonte.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
